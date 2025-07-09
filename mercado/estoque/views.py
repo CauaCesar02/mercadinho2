@@ -1,6 +1,5 @@
-from django.shortcuts import render, httpsResponse
+from django.shortcuts import render, HttpResponse
 
-# Create your views here. 
+# Create your views here.
 def index(request):
-    return httpsResponse("<h1>Página inicial do estoque.</h1>")
-
+    return HttpResponse("<h1>Página inicial do estoque.</h1>")

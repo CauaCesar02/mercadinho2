@@ -1,5 +1,5 @@
 """
-URL configuration for mercado project.
+URL configuration for mercadinho project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.2/topics/http/urls/
@@ -21,5 +21,5 @@ from django.urls import path, include
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("estoque/", include("estoque.urls")),
-    path("controle/", include("contro.urls"))
+    path("controle/", include("controle.urls"))
 ]
